@@ -223,7 +223,7 @@
     height: inherit;
     border-radius: 10px 10px 0px 0px;
     position: absolute;
-    transition: .3s ease-in;
+    transition: .4s ease-in;
 }
 .prop .overlay {
     background-color: #111827;
@@ -232,6 +232,36 @@
     opacity: 0.5;
     position: absolute;
     border-radius: 10px 10px 0px 0px;
+}
+.prop .card .sale {
+    position: absolute;
+    height: inherit;
+    justify-content: space-between;
+    top: 10px;
+    margin-left: 10px;
+}
+.prop .card .sale span {
+    background-color: #16a34a;
+    color: #fff;
+    padding: 3px 10px;
+    text-transform: capitalize;
+    font-size: 12px;
+    border-radius: 10px;
+}
+.prop .card .sale #New {
+    background-color: #111827;
+    color: #fff;
+}
+.prop .card .sale p {
+    background-color: #f5f5f5;
+    color: #111827;
+    padding: 5px 10px;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 18px;
+    border-radius: 10px;
+    bottom: 30px;
+    position: absolute;
 }
 .prop .element .card .details {
     padding: 20px;
@@ -258,7 +288,7 @@
 .prop .element .abc .pics {
     height: 500px;
 }
-.props .element .abc .pics img {
+.prop .element .abc .pics img {
     border-radius: 10px 0px 0px 10px;
 }
 .prop .element .card:hover img{
@@ -266,4 +296,92 @@
 }
 .prop .element .card:hover h3 {
     color: #16a34a;
+}
+.prop .element .card:hover{
+    box-shadow: 5px 5px 10px #111827;
+}
+.prop .element .card .partner {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    column-gap: 10px;
+    text-transform: capitalize;
+    border-top: 1px solid #6b7280;
+    width: 90%;
+    padding: 10px 0px;
+}
+.prop .element .card .partner img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.prop .element .card .details .partner .name h4 {
+    gap: 20px;
+    color: #111827;
+}
+/* offer section */
+.offers {
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #f9fafb;
+}
+.heading {
+    text-align: center;
+    color: #4b5563;
+    margin-bottom: 40px;
+}
+.heading h1 {
+    text-transform: capitalize;
+    color: #111827;
+}
+.offers .element {
+    display: flex;
+    justify-content: space-between;
+}
+.offers .element .card {
+    width: 300px;
+    text-align: center;
+    padding: 15px;
+    color: #4b5563;
+}
+.offers .element .card i {
+    color: #16a34a;
+    background-color: #dcfce7;
+    padding: 15px;
+    font-size: 30px;
+    border-radius: 10px;
+}
+.offers .element .card h3 {
+    font-size: 20px;
+    margin: 10px auto; 
+}
+/* agents section */
+.agents {
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #f9fafb;
+}
+.agents .element .card {
+    width: 350px;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 5px #11182753;
+    text-transform: capitalize;
+    color: #16a34a;
+}
+.agents .element .card img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.agents .element .card h3 {
+    color: #111827;
+    margin-top: 20px;
+}
+.agents .element .card span {
+    color: #4b5563;
+    pa
 }
